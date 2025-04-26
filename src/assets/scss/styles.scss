@@ -1,0 +1,39 @@
+// 导入Sass内置模块和项目样式
+@use 'sass:map';
+@use 'variables' as *;
+@use 'fonts';
+@use 'reset';
+
+// 主题切换功能
+:root {
+  @each $key, $value in map.get($themes, light) {
+    --#{$key}: #{$value};
+  }
+}
+
+.theme-dark {
+  @each $key, $value in map.get($themes, dark) {
+    --#{$key}: #{$value};
+  }
+}
+
+// 应用主题变量
+body {
+  color: var(--text);
+  background-color: var(--background);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a {
+  color: var(--primary);
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+// 其他全局样式
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}

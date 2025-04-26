@@ -1,0 +1,14 @@
+{
+  "common": {
+    "save": "保存",
+    "cancel": "取消",
+    "edit": "编辑",
+    "delete": "删除",
+    "nightMode": "夜间模式",
+    "dayMode": "日间模式"
+  },
+  "menu": {
+    "home": "首页",
+    "about": "关于"
+  }
+}

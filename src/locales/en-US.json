@@ -1,0 +1,14 @@
+{
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "nightMode": "Night Mode",
+    "dayMode": "Day Mode"
+  },
+  "menu": {
+    "home": "Home",
+    "about": "About"
+  }
+}

@@ -1,0 +1,18 @@
+// 字体引入
+@font-face {
+  font-family: 'PingFang SC';
+  src: local('PingFang SC'), local('PingFang-SC');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Microsoft YaHei';
+  src: local('Microsoft YaHei'), local('Microsoft-YaHei');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// 字体变量
+$font-family-sans-serif: 'PingFang SC', 'Microsoft YaHei', -apple-system, sans-serif;
+$font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, monospace;
