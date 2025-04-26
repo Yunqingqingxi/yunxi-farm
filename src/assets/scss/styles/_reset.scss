@@ -1,5 +1,5 @@
 // 导入变量
-@use 'variables' as *;
+@use '../themes/variables' as *;
 
 // 全局样式重置
 *,
@@ -11,15 +11,15 @@
 }
 
 html {
-  font-size: $font-size-base;
-  line-height: $line-height-base;
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
   text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
 }
 
 body {
-  font-family: $font-family-base;
+  font-family: var(--font-family-base);
   color: var(--text);
   background-color: var(--background);
   transition: all 0.3s ease;
@@ -60,9 +60,9 @@ select {
 }
 
 button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
+[type='button'],
+[type='reset'],
+[type='submit'] {
   -webkit-appearance: button;
 }
 

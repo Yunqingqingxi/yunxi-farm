@@ -1,0 +1,7 @@
+// 首先导入主题变量
+@use './scss/themes/variables';
+@use './scss/themes/element-variables';
+
+// 然后导入其他样式
+@use './scss/fonts/fonts';
+@use './scss/styles/styles';

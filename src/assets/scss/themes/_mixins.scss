@@ -1,0 +1,40 @@
+// 主题混合器
+@mixin theme($theme) {
+  @if $theme == light {
+    --primary: #2d8cf0;
+    --primary-light: #5cadff;
+    --secondary: #19be6b;
+    --background: #f8f9fa;
+    --content-background: #ffffff;
+    --text: #17233d;
+    --text-secondary: #515a6e;
+    --border: #e8eaec;
+    --card-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.06);
+    --header-bg: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+  } @else if $theme == dark {
+    --primary: #2d8cf0;
+    --primary-light: #5cadff;
+    --secondary: #19be6b;
+    --background: #1a1a1a;
+    --content-background: #242424;
+    --text: #f0f0f0;
+    --text-secondary: #bbbbbb;
+    --border: #3a3a3a;
+    --card-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2);
+    --header-bg: linear-gradient(135deg, #1a1a1a 0%, #242424 100%);
+  }
+}
+
+// Element Plus主题混合器
+@mixin element-theme($theme) {
+  @if $theme == light {
+    --el-text-color-primary: #303133;
+    --el-text-color-regular: #606266;
+    --el-border-color-base: #dcdfe6;
+    --el-bg-color-page: #f5f7fa;
+  } @else if $theme == dark {
+    --el-text-color-primary: #e4e7ed;
+    --el-border-color-base: #4c4d4f;
+    --el-bg-color-page: #3e3c3c;
+  }
+}

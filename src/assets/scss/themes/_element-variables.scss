@@ -1,0 +1,10 @@
+@use 'element-plus/theme-chalk/src/index.scss' as *;
+@use './mixins' as *;
+
+:root {
+  @include element-theme(light);
+}
+
+[data-theme='dark'] {
+  @include element-theme(dark);
+}

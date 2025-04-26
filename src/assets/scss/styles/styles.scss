@@ -1,0 +1,56 @@
+// 导入Sass内置模块和项目样式
+@use 'sass:map';
+@use '../themes/variables' as *;
+@use '../fonts/fonts';
+@use './reset';
+@use '../themes/element-variables';
+
+// 移动端适配基础设置
+html {
+  font-size: 16px;
+  @media screen and (max-width: 768px) {
+    font-size: 14px;
+  }
+  @media screen and (max-width: 480px) {
+    font-size: 12px;
+  }
+}
+
+
+// 基础样式
+body {
+  color: var(--text);
+  background-color: var(--background);
+  transition:
+    background-color 0.5s ease,
+    color 0.3s ease;
+}
+
+* {
+  transition:
+    background-color 0.5s ease,
+    border-color 0.5s ease;
+}
+
+.theme-transitioning * {
+  transition-duration: 0.5s !important;
+}
+
+a {
+  color: #409eff;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+// 其他全局样式
+.container {
+  width: 100%;
+  max-width: 90vw;
+  margin: 0 auto;
+  padding: 0 1rem;
+  
+  @media screen and (min-width: map-get($breakpoints, 'lg')) {
+    max-width: 1200px;
+  }
+}

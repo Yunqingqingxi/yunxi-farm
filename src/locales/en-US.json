@@ -5,10 +5,100 @@
     "edit": "Edit",
     "delete": "Delete",
     "nightMode": "Night Mode",
-    "dayMode": "Day Mode"
+    "dayMode": "Day Mode",
+    "english": "EN",
+    "chinese": "Chinese"
   },
   "menu": {
     "home": "Home",
+    "dashboard": "Dashboard",
     "about": "About"
+  },
+  "notFound": {
+    "title": "404",
+    "subtitle": "Oops, page not found",
+    "description": "The page you requested does not exist or has been removed",
+    "homeButton": "Back to Home",
+    "backButton": "Go Back"
+  },
+  "app": {
+    "title": "Yunxi Farm",
+    "copyright": "© 2025 Yunxi Farm · Making Agriculture Smarter"
+  },
+  "home": {
+    "title": "Home",
+    "testButton": "Test Message",
+    "welcomeMessage": "Welcome to Home"
+  },
+  "user": {
+    "login": "Login",
+    "guest": "Guest",
+    "role": {
+      "admin": "Admin"
+    },
+    "menu": {
+      "profile": "Profile",
+      "settings": "Settings",
+      "logout": "Logout"
+    }
+  },
+  "login": {
+    "title": "Login",
+    "noAccount": "Don't have an account?",
+    "registerNow": "Register now",
+    "accountPlaceholder": "Please enter phone/email",
+    "passwordPlaceholder": "Please enter password",
+    "codePlaceholder": "Please enter verification code",
+    "getCode": "Get verification code",
+    "passwordLogin": "Password login",
+    "codeLogin": "Verification code login",
+    "submit": "Login"
+  },
+  "register": {
+    "title": "Register",
+    "phoneRegister": "Phone registration",
+    "emailRegister": "Email registration",
+    "phonePlaceholder": "Please enter phone number",
+    "emailPlaceholder": "Please enter email",
+    "codePlaceholder": "Please enter verification code",
+    "getCode": "Get verification code",
+    "passwordPlaceholder": "Please enter password",
+    "confirmPasswordPlaceholder": "Please confirm password",
+    "submit": "Register",
+    "haveAccount": "Already have an account?",
+    "loginNow": "Login now"
+  },
+  "auth": {
+    "loginTitle": "User Login",
+    "registerTitle": "User Register",
+    "accountPlaceholder": "Please enter phone/email",
+    "passwordPlaceholder": "Please enter password",
+    "confirmPassword": "Confirm Password",
+    "login": "Login",
+    "register": "Register",
+    "noAccount": "Don't have an account?",
+    "registerNow": "Register now",
+    "haveAccount": "Already have an account?",
+    "loginNow": "Login now",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot password",
+    "agreeTerms": "I have read and agree to the terms",
+    "orLoginWith": "Or login with",
+    "orRegisterWith": "Or register with",
+    "validation": {
+      "accountRequired": "Please enter account",
+      "accountInvalid": "Please enter valid email or phone",
+      "passwordRequired": "Please enter password",
+      "passwordMinLength": "Password must be at least 6 characters",
+      "confirmPasswordRequired": "Please confirm password",
+      "passwordNotMatch": "Passwords do not match"
+    },
+    "message": {
+      "loginSuccess": "Login successful",
+      "loginFailed": "Login failed",
+      "registerSuccess": "Registration successful",
+      "registerFailed": "Registration failed",
+      "forgotPassword": "Forgot password feature coming soon"
+    }
   }
 }
